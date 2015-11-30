@@ -80,6 +80,7 @@ body{
  margin-left: 110px;
  border:white solid 5px;  
  border-radius: 10px;
+ 
     
 }
 
@@ -87,8 +88,33 @@ body{
     font-size: 40px;
     color:blue;
     margin-left: 100px;
+    border: 5px solid white;
+   border-radius: 5px;
+   padding:3px;
+   width: 123px
     
     
+}
+
+#content>h2{
+    font-size: 40px;
+    color: blue;
+    margin-left: 100px;
+   position: absolute;
+   top: 500px;
+   border: 5px solid white;
+   border-radius: 5px;
+   padding:3px;
+       
+        
+}
+
+.timb{
+     margin-left: 110px;
+     border:white solid 5px;  
+     border-radius: 10px;
+     margin-top: 130px;
+         
 }
 
     
