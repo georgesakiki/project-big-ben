@@ -4,13 +4,20 @@
          <link href="news.css" rel="stylesheet" />
         <meta charset="UTF-8">
         <link rel="shortcut icon" href="bigben.jpg">
-       
+       <script src="jquery-2.1.3.js"></script>
+        <script>
+            $(document).ready(function() {
+                $(":radio").change(function() {
+                    $(":text").val($("img").attr('src'));
+                });
+            });
+        </script>
     </head>
     <body>
         <div id="wrapper">
             <div id="header">
                 <img src="images/bigben.jpg" alt="Linux logo" height="71" width="60"/>
-                <h1><a href="#">Big Ben</a></h1>
+                <h1>Big Ben</h1>
                 <h3>Best  customer service </h3>
             </div>
             <ul id="menu">
@@ -24,17 +31,21 @@
         
         
         <div id="content">
-        <p> PREPARING FOR CHRISTMAS !! </p>
-      
-        <a href="images/nw1.jpg" >
-        <img class="news1" src="images/nw1.jpg" height="500" width="500" >
-        </a>
-        
-        
+       
         <h2> NEW COLLECTION IS NOW AVAILABLE </h2>
-         <a href="images/elite5.jpg" >
-        <img class="news2" src="images/elite5.jpg" height="500" width="500" >
-         </a>
         
-        <h3> Looking for the right last minute Christmas gift? Ask for your 10% DISCOUNT when shopping for your gifts. Offer available from December 20 until January 2.</h3>
+        <p><img src="images/nalba.jpg" alt="webimage" 
+                height="400" width="400"/></p>
+        <label><input type="radio" name="webradios" checked
+                      onchange="$('img').attr('src', 'images/nalba.jpg')"/>Alba</label>
+        <label><input type="radio" name="webradios"
+                      onchange="$('img').attr('src', 'images/ncasio.jpg')"/>Casio</label>
+        <label><input type="radio" name="webradios"
+                      onchange="$('img').attr('src', 'images/nor.jpg')"/>OliverRoss</label>
+        <label><input type="radio" name="webradios"
+                      onchange="$('img').attr('src', 'images/ntimb.jpg')"/>Timberland</label>
+     
         
+       
+        
+               

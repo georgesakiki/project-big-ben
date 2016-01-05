@@ -17,9 +17,6 @@ body{
     position: relative;
     left: 5px;
     top: -25px;
-}
-
-#header>h1>a{
     color:blue;
     text-decoration: none;
     text-transform: uppercase;
@@ -65,7 +62,7 @@ body{
 }
 
 #menu>li>a:hover {
-    background-color: grey;
+    background-color: red;
 }
 
 #menu>li>a:active{
